@@ -1,8 +1,5 @@
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("input/assets/styles");
-    eleventyConfig.addPassthroughCopy("input/assets/images");
-    eleventyConfig.addPassthroughCopy("input/assets/scripts");
-    eleventyConfig.addPassthroughCopy("input/assets/fonts");
+    eleventyConfig.addPassthroughCopy("input/assets");
     return {
         dir: {
             input: 'input',

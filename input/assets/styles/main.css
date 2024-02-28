@@ -1,0 +1,84 @@
+:root {
+    --light: hsl(51, 16%, 91%);
+    --dark: hsl(0, 0%, 10%);
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DM_Sans/DMSans-Medium.woff2') format('woff2'),
+        url('../fonts/DM_Sans/DMSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/Literata/Literata-Regular.woff2') format('woff2'),
+        url('../fonts/Literata/Literata-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════════════════
+════════════════════════════════════════ GENERAL ════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════════════ */
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--dark);
+    background-color: var(--light);
+}
+
+.body__inner {
+    max-width: 72.5rem;
+    margin: 0 auto;
+}
+
+body *::selection {
+    background-color: hsl(52, 29%, 85%);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Literata', serif;
+}
+
+/* Display Text */
+h1 {
+    font-size: 5rem;
+    line-height: 5.625rem;
+}
+
+/* Display Sans */
+h2 {
+    font-size: 3.75rem;
+}
+
+/* Display Small */
+h3 {
+    font-size: 2.5rem;
+}
+
+/* Display Smaller */
+h4 {
+    font-size: 1.5rem;
+}
+
+/* Medium Large Text */
+.large-p {
+    font-size: 1.5rem;
+}
+
+/* Medium Text */
+p {
+    font-size: 1.25rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
