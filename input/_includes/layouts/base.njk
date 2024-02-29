@@ -11,7 +11,7 @@
 <body>
     <article class="body__inner">
         {% block body %}
-
+            {{ content | safe }}
         {% endblock body %}
     </article>
 </body>

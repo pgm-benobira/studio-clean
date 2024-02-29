@@ -1,0 +1,9 @@
+<nav>
+    <ul class="main-nav">
+        {% for link in collections.navigation %}
+        <li>
+            <a href="{{ link.url }}">{{ link.data.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

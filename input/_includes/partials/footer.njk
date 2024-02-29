@@ -1,0 +1,13 @@
+<footer>
+    <article class="footer__inner">
+        <a href="/">Clean</a>
+        {% include "partials/nav.njk" %}
+        <ul class="policies-nav">
+            {% for link in collections.policy %}
+            <li>
+                <a href="{{ link.url }}">{{ link.data.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </article>
+</footer>
