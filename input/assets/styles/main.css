@@ -73,6 +73,10 @@ p, a  {
     font-size: 1.25rem;
 }
 
+h3, h4, p {
+    padding-bottom: 3.75rem;
+}
+
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -181,4 +185,21 @@ a:hover {
 
 .hero__title {
     max-width: 36.625rem;
+}
+
+/* ----------------------------------- Detail Section --------------------------------- */
+
+.detail-section {
+    margin: 0 auto;
+    max-width: 47.25rem;
+}
+
+.detail-section ul {
+    padding-bottom: 3.75rem;
+    padding-left: 1.5rem;
+}
+
+.detail-section li {
+    font-size: 1.25rem;
+    list-style-type: disc;
 }
