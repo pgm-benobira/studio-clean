@@ -91,6 +91,10 @@ a:hover {
     opacity: 0.7;
 }
 
+img {
+    border-radius: 20px;
+}
+
 .header__inner, .main__inner, .footer__inner {
     padding: 0 3.75rem;
 }
@@ -202,4 +206,23 @@ a:hover {
 .detail-section li {
     font-size: 1.25rem;
     list-style-type: disc;
+}
+
+/* ----------------------------------- Image Collection ------------------------------- */
+
+.image-collection__inner {
+    max-width: 80rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    flex-wrap: wrap;
+}
+
+.image-collection__image {
+    max-width: 33.75rem;
+    width: 100%;
+    aspect-ratio: 540 / 385;
+    object-fit: cover;
 }

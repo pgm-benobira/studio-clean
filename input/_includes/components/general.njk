@@ -1,10 +1,17 @@
 {% import "components/button.njk" as buttons %}
 
-{% macro hero(heroTitle, heroLabel, heroLink) %}
+{% macro hero(heroTitle, heroLabel, heroLink, heroImages) %}
     <section class="hero">
         <div class="hero__inner">
             <h1 class="hero__title">{{ heroTitle }}</h1>
             {{ buttons.button(heroLabel, heroLink) }}
+        </div>
+    </section>
+    <section class="image-collection">
+        <div class="image-collection__inner">
+            {% for image in heroImages %}
+                <img class="image-collection__image" src="/assets/images/{{ image }}" alt="Impression">
+            {% endfor %}
         </div>
     </section>
 {% endmacro %}
