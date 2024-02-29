@@ -1,0 +1,13 @@
+{% macro topSection(pageTitle, description, goBack) %}
+    <section class="top-section">
+        <div class="top-section__inner">
+            <h1 class="top-section__title">{{ pageTitle }}</h1>
+            {% if description %}
+                <p class="large-text top-section__description">{{ description }}</p>
+            {% endif %}
+            {% if goBack %}
+                <a href="/" class="large-text top-section__link">Go back</a>
+            {% endif %}
+        </div>
+    </section>
+{% endmacro %}
