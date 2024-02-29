@@ -46,16 +46,6 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 5rem;
     line-height: 5.625rem;
-    text-align: center;
-    max-width: 756px;
-    margin: 0 auto;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-.page-title {
-    border-bottom: 2px solid var(--dark);
-    margin-bottom: 5rem;
 }
 
 /* Display Sans */
@@ -137,7 +127,8 @@ a:hover {
     padding-top: 5rem;
 }
 
-.top-section__inner, .top-section__title, .top-section__description {
+.top-section__inner, .top-section__description {
+    padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
@@ -190,7 +181,4 @@ a:hover {
 
 .hero__title {
     max-width: 36.625rem;
-    text-align: left;
-    margin: 0;
-    padding: 0;
 }

@@ -1,4 +1,4 @@
-{% import "components/hero.njk" as components %}
+{% import "components/general.njk" as components %}
 
 {% extends "layouts/base.njk" %}
 
@@ -10,9 +10,7 @@
                 {{ components.hero(heroTitle, heroLabel, heroLink)}}
             {% endif %}
             {% if pageTitle %}
-                <div class="page-title">
-                    <h1>{{ pageTitle }}</h1>
-                </div>
+                {{ components.topSection(pageTitle, description, category)}}
             {% endif %}
             {% block main %}
             {{ content | safe }}
