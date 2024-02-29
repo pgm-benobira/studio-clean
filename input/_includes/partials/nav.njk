@@ -1,6 +1,6 @@
 <nav>
     <ul class="main-nav">
-        {% for link in collections.navigation %}
+        {% for link in collections.navigation | sortByOrder %}
         <li>
             <a href="{{ link.url }}">{{ link.data.title }}</a>
         </li>
