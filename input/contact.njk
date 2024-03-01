@@ -3,10 +3,25 @@ title: Contact
 tags: navigation
 order: 5
 pageTitle: Get in touch, we’ll get back to you.
+listItems: 
+    - link: https://maps.app.goo.gl/u1ocLcUQMRwaKsUW7
+      target: _blank
+      left: Korenmarkt 12, 9000 Ghent, Belgium
+      right: Address
+    - link: mailto:info@clean.be
+      left: info@clean.be
+      right: Email
+    - link: tel:+32 09 45 78 12
+      left: +32 09 45 78 12
+      right: Phone
+listLabel: Send us an email
+listLink: mailto:info@clean.be
 ---
+
+{% import "components/general.njk" as components %}
 
 {% extends "layouts/default.njk" %}
 
 {% block main %}
-    <p>This is the contact page</p>
+    {{ components.listing(listTitle, listItems, listLabel, listLink) }}
 {% endblock main %}

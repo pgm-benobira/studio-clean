@@ -51,6 +51,7 @@ h1 {
 /* Display Sans */
 h2 {
     font-size: 3.75rem;
+    padding-bottom: 5rem;
 }
 
 /* Display Small */
@@ -225,4 +226,33 @@ img {
     width: 100%;
     aspect-ratio: 540 / 385;
     object-fit: cover;
+}
+
+/* ----------------------------------- Listing --------------------------------------- */
+
+.listing__inner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.listing__list {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.listing__item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--dark);
+    margin-bottom: 2rem;
+}
+
+.listing__group {
+    display: flex;
+    gap: 5rem;
+}
+
+.listing__button {
+    text-align: right;
 }

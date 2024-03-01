@@ -29,3 +29,37 @@
         </div>
     </section>
 {% endmacro %}
+
+{% macro listing(listTitle, listItems, listLabel, listLink) %}
+    <section class="listing">
+        <div class="listing__inner">
+            {% if listTitle %}
+                <h2 class="listing__title">{{ listTitle }}</h2>
+            {% endif %}
+            <ul class="listing__list">
+                {% for item in listItems %}
+                    <a href="{{ item.link }}" target="{{ item.target }}">
+                        <li class="listing__item">
+                            <div class="listing__group">
+                                <div class="listing__left">
+                                    {{ item.left }}
+                                </div>
+                                {% if item.middle %}
+                                    <div class="listing__middle">
+                                        {{ item.middle }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                            <div class="listing__right">
+                                {{ item.right }}
+                            </div>
+                        </li>
+                    </a>
+                {% endfor %}
+            </ul>
+            <div class="listing__button">
+                {{ buttons.button(listLabel, listLink) }}
+            </div>
+        </div>
+    </section>
+{% endmacro %}
