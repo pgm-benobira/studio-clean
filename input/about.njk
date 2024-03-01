@@ -10,10 +10,28 @@ heroImages:
     - Image 2.png
     - Image 1_1.png
     - Image 2_1.png
+gridTitle: Meet the team
+gridItems: 
+    - heading: John Doe
+      image: Rectangle 2.png
+      description: Founder and CEO
+      link: mailto:john.doe@clean.be
+    - heading: Mac Johnson
+      image: Rectangle 2_1.png
+      description: Prototyper
+      link: mailto:mac.johnson@clean.be
+    - heading: Francis McDonald
+      image: Rectangle 2_2.png
+      description: Product Designer
+      link: mailto:francis.mcdonald@clean.be
+    - heading: Jane Smith
+      image: Rectangle 2_3.png
+      description: Front-end developer
+      link: mailto:jane.smith@clean.be
+    - heading: Mark Cuban
+      image: Rectangle 2_4.png
+      description: Back-end developer
+      link: mailto:mark.cuban@clean.be
 ---
 
-{% extends "layouts/default.njk" %}
-
-{% block main %}
-    <p>This is the about page</p>
-{% endblock main %}
+{% extends "layouts/grid.njk" %}

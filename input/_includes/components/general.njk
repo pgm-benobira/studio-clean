@@ -63,3 +63,35 @@
         </div>
     </section>
 {% endmacro %}
+
+{% macro grid(gridTitle, gridItems, gridItemButton, gridLabel, gridLink) %}
+    <section class="grid">
+        <div class="grid__inner">
+            {% if gridTitle %}
+                <h2 class="grid__title">{{ gridTitle }}</h2>
+            {% endif %}
+            <ul class="grid__list">
+                {% for item in gridItems %}
+                    <a href="{{ item.link }}">
+                        <li class="grid__item">
+                            <div class="grid__image">
+                                <img src="/assets/images/{{ item.image }}" alt="impression">
+                                {% if gridItemButton %}
+                                    <div class="grid__arrow"><img src="/assets/images/icon-arrow.svg"></div>
+                                {% endif %}
+                            </div>
+                            <div class="grid__content">
+                                <p class="grid__heading large-text">{{ item.heading }}</p>
+                                <p class="grid__description">{{ item.description }}</p>
+                            </div>
+                        </li>
+                    </a>
+                {% endfor %}
+            </ul>
+            {% if gridLabel %}
+                <div class="grid__button">
+                    {{ buttons.button(gridLabel, gridLink) }}
+                </div>
+            {% endif %}
+        </div>
+{% endmacro %}

@@ -24,6 +24,23 @@ listItems:
       right: Webdevelopment
 listLabel: See all our work
 listLink: /projects
+gridTitle: Read our latest news
+gridItems: 
+    - heading: Why 11ty rocks!
+      image: Rectangle 2_5.png
+      description: Eleventy is our favourite Static Site Generator, we'll tell you why.
+      link: /blog/why-11ty-rocks
+    - heading: Notepads are cool
+      image: Rectangle 2_6.png
+      description: We skipped Notion and other apps, we're going back to basics.
+      link: /blog/notepads-are-cool
+    - heading: You designed with us
+      image: Rectangle 2_7.png
+      description: We held a User Experience workshop, and it was amazing.
+      link: /blog/you-designed-with-us
+gridItemButton: true
+gridLabel: Read our blog
+gridLink: /blog
 ---
 
 {% import "components/general.njk" as components %}
@@ -32,4 +49,5 @@ listLink: /projects
 
 {% block main %}
     {{ components.listing(listTitle, listItems, listLabel, listLink) }}
+    {{ components.grid(gridTitle, gridItems, gridItemButton, gridLabel, gridLink)}}
 {% endblock main %}

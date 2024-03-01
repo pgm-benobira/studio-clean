@@ -263,3 +263,67 @@ img {
 .listing__button {
     text-align: right;
 }
+
+/* ----------------------------------- Grid ------------------------------------------ */
+
+.grid__title {
+    padding-top: 5rem;
+}
+
+.grid__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+
+.grid__list a:hover {
+    opacity: 1;
+}
+
+.grid__image {
+    position: relative;
+}
+
+.grid__image img {
+    width: 100%;
+    aspect-ratio: 346 / 278;
+    object-fit: cover;
+}
+
+.grid__arrow {
+    position: absolute;
+    rotate: 180deg;
+    top: .625rem;
+    right: .625rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: hsla(52, 17%, 91%, 0.5);
+    transition: 0.4s;
+}
+
+.grid__list a:hover .grid__arrow {
+    background-color: var(--light);
+    transition: 0.4s;
+}
+
+.grid__item {
+    max-width: 21.625rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.grid__heading {
+    padding-bottom: 2rem;
+}
+
+.grid__button {
+    text-align: right;
+    padding-bottom: 5rem;
+}

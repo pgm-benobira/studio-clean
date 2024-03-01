@@ -1,6 +1,7 @@
+{% import "components/general.njk" as components %}
+
 {% extends "layouts/default.njk" %}
-{# includes top-section#1 + grid #}
 
 {% block main %}
-    
+    {{ components.grid(gridTitle, gridItems, gridItemButton, gridLabel, gridLink)}}
 {% endblock main %}
