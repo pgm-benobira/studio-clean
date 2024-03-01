@@ -1,2 +1,11 @@
 {% extends "layouts/default.njk" %}
-{# includes image-banner #}
+
+{# Same as detail.njk but with an image at the top of the page. #}
+{% block main %}
+    <img src="/assets/images/{{ image }}" class="banner-image">
+    <section class="detail-section">
+        {% block detail %}
+        {{ content | safe }}
+        {% endblock detail %}
+    </section>
+{% endblock main %}

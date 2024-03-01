@@ -100,7 +100,7 @@ img {
     width: 100%;
     aspect-ratio: 1157 / 400;
     object-fit: cover;
-    margin-bottom: 3.75rem;
+    margin-bottom: 5rem;
 }
 
 .header__inner, .main__inner, .footer__inner {
