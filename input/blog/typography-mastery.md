@@ -8,7 +8,7 @@ description: Investigate the art of typography in web design.
 
 Typography plays a crucial role in web design, affecting both the aesthetics and functionality of a website. It encompasses font selection, spacing, sizing, and arrangement, all of which contribute to the readability and visual appeal of content. By understanding the principles of typography, designers can create websites that effectively communicate their message and engage users.
 
-![Typography Mastery](/assets/images/Rectangle2_12.png)
+![Typography Mastery](/assets/images/Rectangle2_12.webp)
 
 ### Importance of Font Selection
 

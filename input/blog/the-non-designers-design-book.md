@@ -8,7 +8,7 @@ description: For a deeper understanding of design principles, this is a must rea
 
 In the realm of design, one often encounters the misconception that expertise in artistry or software proficiency is the sole requirement. However, the essence of design transcends these facets. Robin Williams' "The Non-Designer's Design Book" serves as a beacon for amateurs and professionals alike, elucidating the fundamental principles underlying effective design.
 
-![](/assets/images/Rectangle2_15.png)
+![](/assets/images/Rectangle2_15.webp)
 
 #### Importance of Design Principles
 

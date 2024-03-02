@@ -2,7 +2,7 @@
 title: Stonks
 pageTitle: Stonks
 description: Rebranding
-image: Rectangle2_17.png
+image: Rectangle2_17.webp
 ---
 
 ### Crafting a Stonks App Web Design
@@ -23,12 +23,12 @@ Implement user profiles that allow for customization based on individual prefere
 
 Given the diverse devices used by investors, ensure the Stonks App's web design is responsive. A seamless experience across desktops, tablets, and smartphones is essential for user satisfaction. Responsive design not only accommodates various user preferences but also reinforces accessibility, a key consideration in modern web development.
 
-![](/assets/images/Rectangle3_5.png)
+![](/assets/images/Rectangle3_5.webp)
 
 ### Conclusion
 
 In designing the web interface for the Stonks App, the emphasis should be on creating a seamless, visually appealing, and functional experience for users navigating the complexities of the financial landscape. By prioritizing clear data presentation, intuitive navigation, and responsive design, the Stonks App can become a go-to platform for users seeking to stay informed and engaged in the world of investments.
 
-![](/assets/images/Rectangle4_3.png)
+![](/assets/images/Rectangle4_3.webp)
 
-![](/assets/images/Rectangle5_1.png)
+![](/assets/images/Rectangle5_1.webp)

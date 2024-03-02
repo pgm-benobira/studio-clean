@@ -2,14 +2,14 @@
 title: Gmail
 pageTitle: Gmail
 description: Webdevelopment
-image: Rectangle2_18.png
+image: Rectangle2_18.webp
 ---
 
 ### Optimizing the User Experience
 
 Gmail, one of the most widely used email platforms, exemplifies a sophisticated and user-friendly web development approach. Exploring the key aspects of Gmail's web development provides valuable insights into creating seamless and efficient web applications.
 
-![](/assets/images/Rectangle3_6.png)
+![](/assets/images/Rectangle3_6.webp)
 
 #### Robust and Responsive Design
 

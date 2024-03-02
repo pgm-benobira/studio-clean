@@ -12,7 +12,7 @@ In the ever-evolving landscape of web development, the choice of tools can make 
 
 11ty, or Eleventy, is a static site generator that has been gaining momentum in the web development community. What sets 11ty apart is its commitment to simplicity and a minimalistic approach. It doesn't impose a specific folder structure or template language, giving developers the freedom to structure projects according to their preferences.
 
-![](/assets/images/Rectangle3.png)
+![](/assets/images/Rectangle3.webp)
 
 #### Data Driven Content
 

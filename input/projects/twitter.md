@@ -2,7 +2,7 @@
 title: Twitter
 pageTitle: Twitter
 description: Rebranding
-image: twitter.jpg
+image: twitter.webp
 ---
 
 ## Twitter Rebranding Project

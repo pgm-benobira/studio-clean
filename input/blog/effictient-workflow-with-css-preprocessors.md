@@ -37,4 +37,4 @@ While Less and Sass share similar functionalities, they have differences in synt
 
 CSS preprocessors like Less and Sass offer indispensable tools for modern web development, empowering developers to write cleaner, more maintainable CSS code with greater efficiency. By leveraging features such as variables, nesting, mixins, and functions, you can enhance your stylesheet management workflow and streamline the development process.
 
-![](/assets/images/Rectangle2_9.png)
+![](/assets/images/Rectangle2_9.webp)

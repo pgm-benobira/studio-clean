@@ -16,7 +16,7 @@ Functionality will be a central focus of web design in 2024. Websites will prior
 #### Enhanced User Interaction
 User interaction will undergo significant enhancements in 2024, driven by advancements in technology such as AI and machine learning. Personalized experiences will become more prevalent, with websites adapting content and design based on individual user preferences and behavior. Chatbots and virtual assistants will also play a more prominent role in facilitating user interaction and providing assistance.
 
-![](/assets/images/Rectangle2_11.png)
+![](/assets/images/Rectangle2_11.webp)
 
 ### Conclusion
 As we approach 2024, web design continues to evolve, with a focus on aesthetics, functionality, and user interaction. By staying abreast of emerging trends and technologies, designers can create compelling and immersive digital experiences that captivate audiences and drive engagement.

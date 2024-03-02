@@ -15,7 +15,7 @@ In today's digital age, creating products that are accessible to everyone is not
 - **Understandable:** The content and operation of the interface must be understandable to users.
 - **Robust:** Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.
 
-![Accessibility in Design](/assets/images/Rectangle2_10.png)
+![Accessibility in Design](/assets/images/Rectangle2_10.webp)
 
 ### Embracing Inclusivity 
 

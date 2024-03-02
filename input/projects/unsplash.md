@@ -2,7 +2,7 @@
 title: Unsplash
 pageTitle: Unsplash
 description: Webdesign
-image: unsplash.png
+image: unsplash.webp
 ---
 
 ### Project Description

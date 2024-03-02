@@ -20,10 +20,10 @@ Renowned industry experts led the workshop, sharing their wealth of knowledge an
 
 Collaborative design exercises played a pivotal role in the workshop, encouraging participants to work together in solving UX challenges. These exercises not only honed their design skills but also fostered teamwork and creative problem-solving, mirroring real-world scenarios in the design industry.
 
-![](/assets/images/Rectangle3_2.png)
+![](/assets/images/Rectangle3_2.webp)
 
-![](/assets/images/Rectangle4.png)
+![](/assets/images/Rectangle4.webp)
 
-![](/assets/images/Rectangle5.png)
+![](/assets/images/Rectangle5.webp)
 
-![](/assets/images/Rectangle6.png)
+![](/assets/images/Rectangle6.webp)

@@ -2,7 +2,7 @@
 title: Sleep Cycle
 pageTitle: Sleep Cycle
 description: Appdesign
-image: sleep-cycle.jpg
+image: sleep-cycle.webp
 ---
 
 ### Project Details

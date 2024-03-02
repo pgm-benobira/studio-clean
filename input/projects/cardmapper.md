@@ -2,7 +2,7 @@
 title: CardMapper
 pageTitle: CardMapper
 description: Appdesign
-image: cardmapper.jpg
+image: cardmapper.webp
 ---
 
 ### Project Overview

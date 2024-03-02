@@ -28,7 +28,7 @@ Prototyping involves translating ideas into tangible representations of the fina
 
 By integrating design thinking principles into the web development process, developers can create user-centered solutions that resonate with their audience. From empathizing with users to prototyping and testing, each phase of design thinking plays a crucial role in shaping the final product.
 
-![](/assets/images/Rectangle2_14.png)
+![](/assets/images/Rectangle2_14.webp)
 
 ### Conclusion
 

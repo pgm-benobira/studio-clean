@@ -2,7 +2,7 @@
 title: Google Home
 pageTitle: Google Home
 description: Appdevelopment
-image: google-home.jpg
+image: google-home.webp
 ---
 
 ### Project Presentation
