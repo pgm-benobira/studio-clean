@@ -2,6 +2,9 @@
 title: Accessibility in Design
 pageTitle: Accessibility in Design
 description: Address the principles of accessible design, emphasizing the need for inclusivity in digital products.
+thumbImage: Rectangle2_10.webp
+link: /blog/accessibility-in-design
+order: 6
 ---
 
 ### Understanding the Importance of Accessible Design

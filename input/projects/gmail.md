@@ -3,6 +3,10 @@ title: Gmail
 pageTitle: Gmail
 description: Webdevelopment
 image: Rectangle2_18.webp
+thumbImage: Rectangle2_22.webp
+link: /projects/gmail
+time: 06.11.2023
+order: 7
 ---
 
 ### Optimizing the User Experience

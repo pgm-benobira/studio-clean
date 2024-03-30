@@ -3,6 +3,9 @@ title: Twitter
 pageTitle: Twitter
 description: Rebranding
 image: twitter.webp
+thumbImage: Rectangle2_28.webp
+link: /projects/twitter
+order: 1
 ---
 
 ## Twitter Rebranding Project

@@ -2,6 +2,9 @@
 title: Why 11ty rocks!
 pageTitle: Why 11ty rocks!
 description: Eleventy is our favourite Static Site Generator, we'll tell you why.
+thumbImage: Rectangle2_5.webp
+link: /blog/why-11ty-rocks
+order: 11
 ---
 
 ### What is a Static Site Generator?

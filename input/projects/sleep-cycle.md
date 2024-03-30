@@ -3,6 +3,9 @@ title: Sleep Cycle
 pageTitle: Sleep Cycle
 description: Appdesign
 image: sleep-cycle.webp
+thumbImage: Rectangle2_25.webp
+link: /projects/sleep-cycle
+order: 4
 ---
 
 ### Project Details

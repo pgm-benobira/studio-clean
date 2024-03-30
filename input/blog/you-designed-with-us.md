@@ -2,6 +2,9 @@
 title: You designed with us
 pageTitle: You designed with us
 description: We held a User Experience workshop, and it was amazing.
+thumbImage: Rectangle2_7.webp
+link: /blog/you-designed-with-us
+order: 9
 ---
 
 ### Unveiling the Success of our User Experience Workshop

@@ -1,4 +1,5 @@
 {
     "layout": "layouts/project-detail.njk",
-    "category": "projects"
+    "category": "projects",
+    "tags": "project"
 }

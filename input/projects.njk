@@ -3,44 +3,14 @@ title: Projects
 tags: navigation
 order: 3
 pageTitle: We make digital experiences.
-gridItems: 
-    - heading: Uber
-      image: Rectangle2_16.webp
-      description: Rebranding
-      link: /projects/uber
-    - heading: Stonks
-      image: Rectangle2_21.webp
-      description: Webdesign
-      link: /projects/stonks
-    - heading: Gmail
-      image: Rectangle2_22.webp
-      description: Webdevelopment
-      link: /projects/gmail
-    - heading: Nike
-      image: Rectangle2_19.webp
-      description: Appdevelopment
-      link: /projects/nike
-    - heading: Google Home
-      image: Rectangle2_24.webp
-      description: Appdevelopment
-      link: /projects/google-home
-    - heading: Sleep Cycle
-      image: Rectangle2_25.webp
-      description: Appdesign
-      link: /projects/sleep-cycle
-    - heading: Unsplash
-      image: Rectangle2_26.webp
-      description: Webdesign
-      link: /projects/unsplash
-    - heading: CardMapper
-      image: Rectangle2_27.webp
-      description: Appdesign
-      link: /projects/cardmapper
-    - heading: Twitter
-      image: Rectangle2_28.webp
-      description: Rebranding
-      link: /projects/twitter
+
 gridItemButton: true
 ---
 
-{% extends "layouts/grid.njk" %}
+{% import "components/general.njk" as components %}
+
+{% extends "layouts/default.njk" %}
+
+{% block main %}
+    {{ components.grid(collections.project, gridTitle, gridItemButton, gridLabel, gridLink)}}
+{% endblock main %}

@@ -3,6 +3,10 @@ title: Uber
 pageTitle: Uber
 description: Rebranding
 image: Rectangle2_16.webp
+thumbImage: Rectangle2_16.webp
+link: /projects/uber
+time: 21.02.2024
+order: 9
 ---
 
 ### Decoding Uber's Rebranding: A Strategic Shift in Visual Identity

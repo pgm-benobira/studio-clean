@@ -2,6 +2,9 @@
 title: Efficient Workflow with CSS Preprocessors
 pageTitle: Efficient Workflow with CSS Preprocessors
 description: Demystify CSS preprocessors such as Less and Sass, unveiling their role in streamlining stylesheet management.
+thumbImage: Rectangle2_9.webp
+link: /blog/effictient-workflow-with-css-preprocessors
+order: 7
 ---
 
 ### Demystifying CSS Preprocessors: Your Key to Streamlined Stylesheet Management

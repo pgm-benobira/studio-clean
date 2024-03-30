@@ -3,6 +3,9 @@ title: Nike
 pageTitle: Nike
 description: Appdevelopment
 image: Rectangle2_19.webp
+thumbImage: Rectangle2_19.webp
+link: /projects/nike
+order: 6
 ---
 
 ### Revolutionizing Athletic Engagement

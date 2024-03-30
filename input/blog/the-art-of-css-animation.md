@@ -2,6 +2,9 @@
 title: The Art of CSS Animation
 pageTitle: The Art of CSS Animation
 description: Explore the world of CSS animation, illustrating how subtle motion can elevate user engagement.
+thumbImage: Rectangle2_13.webp
+link: /blog/the-art-of-css-animation
+order: 3
 ---
 
 ![](/assets/images/Rectangle2_13.webp)

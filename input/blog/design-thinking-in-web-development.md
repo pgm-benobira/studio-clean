@@ -2,6 +2,9 @@
 title: Design Thinking in Web Development
 pageTitle: Design Thinking in Web Development
 description: Introduce the concept of design thinking as a problem-solving methodology.
+thumbImage: Rectangle2_14.webp
+link: /blog/design-thinking-in-web-development
+order: 2
 ---
 
 ### Understanding Design Thinking

@@ -2,6 +2,7 @@
 title: About
 tags: navigation
 order: 4
+
 heroTitle: We are a creative agency with talented people.
 heroLabel: Contact us
 heroLink: /contact
@@ -10,28 +11,14 @@ heroImages:
     - Image2.webp
     - Image1_1.webp
     - Image2_1.webp
+
 gridTitle: Meet the team
-gridItems: 
-    - heading: John Doe
-      image: Rectangle2.webp
-      description: Founder and CEO
-      link: mailto:john.doe@clean.be
-    - heading: Mac Johnson
-      image: Rectangle2_1.webp
-      description: Prototyper
-      link: mailto:mac.johnson@clean.be
-    - heading: Francis McDonald
-      image: Rectangle2_2.webp
-      description: Product Designer
-      link: mailto:francis.mcdonald@clean.be
-    - heading: Jane Smith
-      image: Rectangle2_3.webp
-      description: Front-end developer
-      link: mailto:jane.smith@clean.be
-    - heading: Mark Cuban
-      image: Rectangle2_4.webp
-      description: Back-end developer
-      link: mailto:mark.cuban@clean.be
 ---
 
-{% extends "layouts/grid.njk" %}
+{% import "components/general.njk" as components %}
+
+{% extends "layouts/default.njk" %}
+
+{% block main %}
+    {{ components.grid(collections.team, gridTitle, gridItemButton, gridLabel, gridLink)}}
+{% endblock main %}

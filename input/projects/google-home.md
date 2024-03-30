@@ -3,6 +3,9 @@ title: Google Home
 pageTitle: Google Home
 description: Appdevelopment
 image: google-home.webp
+thumbImage: Rectangle2_24.webp
+link: /projects/google-home
+order: 5
 ---
 
 ### Project Presentation

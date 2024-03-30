@@ -3,6 +3,9 @@ title: CardMapper
 pageTitle: CardMapper
 description: Appdesign
 image: cardmapper.webp
+thumbImage: Rectangle2_27.webp
+link: /projects/cardmapper
+order: 2
 ---
 
 ### Project Overview

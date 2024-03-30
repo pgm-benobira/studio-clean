@@ -2,6 +2,9 @@
 title: The Non-Designer's Design Book
 pageTitle: The Non-Designer's Design Book
 description: For a deeper understanding of design principles, this is a must read.
+thumbImage: Rectangle2_15.webp
+link: /blog/the-non-designers-design-book
+order: 1
 ---
 
 ### Understanding Design Principles

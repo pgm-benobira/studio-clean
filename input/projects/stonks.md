@@ -1,8 +1,12 @@
 ---
 title: Stonks
 pageTitle: Stonks
-description: Rebranding
+description: Webdesign
 image: Rectangle2_17.webp
+thumbImage: Rectangle2_21.webp
+link: /projects/stonks
+time: 12.01.2024
+order: 8
 ---
 
 ### Crafting a Stonks App Web Design

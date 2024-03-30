@@ -2,6 +2,9 @@
 title: Notepads are cool
 pageTitle: Notepads are cool
 description: We skipped Notion and other apps, we're going back to basics.
+thumbImage: Rectangle2_6.webp
+link: /blog/notepads-are-cool
+order: 10
 ---
 
 ### Rediscovering Essential Productivity

@@ -3,6 +3,9 @@ title: Unsplash
 pageTitle: Unsplash
 description: Webdesign
 image: unsplash.webp
+thumbImage: Rectangle2_26.webp
+link: /projects/unsplash
+order: 3
 ---
 
 ### Project Description

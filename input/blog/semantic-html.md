@@ -2,6 +2,9 @@
 title: Semantic HTML
 pageTitle: Semantic HTML
 description: Explore the significance of semantic HTML in creating well-structured and accessible web content
+thumbImage: Rectangle2_8.webp
+link: /blog/semantic-html
+order: 8
 ---
 
 ### The Significance of Semantic HTML in Modern Web Development

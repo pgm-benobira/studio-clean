@@ -2,6 +2,9 @@
 title: Typography Mastery
 pageTitle: Typography Mastery
 description: Investigate the art of typography in web design.
+thumbImage: Rectangle2_12.webp
+link: /blog/typography-mastery
+order: 4
 ---
 
 ### Understanding Typography in Web Design
