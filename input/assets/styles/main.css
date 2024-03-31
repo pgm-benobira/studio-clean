@@ -116,6 +116,34 @@ img {
     }
 }
 
+@media (max-width: 60rem) {
+    h1 {
+        font-size: 3.75rem;
+        line-height: 4.375rem;
+    }
+    h2 {
+        font-size: 2.7rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.3rem;
+    }
+    .large-text {
+        font-size: 1.3rem;
+    }
+    p, a {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 35rem) {
+    .header__inner, .main__inner, .footer__inner {
+        padding: 0 1rem;
+    }
+}
+
 /* ══════════════════════════════════════════════════════════════════════════════════════
 ════════════════════════════════════ HEADER + FOOTER ════════════════════════════════════
 ══════════════════════════════════════════════════════════════════════════════════════ */
@@ -125,6 +153,8 @@ img {
     padding-bottom: 2.5rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 /* ----------------------------------- Navigation ------------------------------------ */
@@ -132,6 +162,8 @@ img {
 .main-nav, .policies-nav {
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* ══════════════════════════════════════════════════════════════════════════════════════
@@ -203,6 +235,8 @@ img {
     justify-content: space-between;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .hero__title {
@@ -263,6 +297,7 @@ img {
     padding-bottom: 2rem;
     border-bottom: 2px solid var(--dark);
     margin-bottom: 2rem;
+    gap: 2rem;
 }
 
 .listing__group {
@@ -340,18 +375,55 @@ img {
 
 /* ----------------------------- 📱 main media queries ------------------------------- */
 
+@media (max-width: 80.75rem){
+    .grid__list {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 60rem){
     .button {
         padding: 1.5rem 3rem;
+        margin-left: auto;
     }
     .grid__arrow {
         width: 3rem;
         height: 3rem;
     }
+    .image-collection__image {
+        max-width: 44rem;
+    }
 }
 
-@media (max-width: 80.75rem){
-    .grid__list {
+@media (max-width: 52rem) {
+    .grid__item{
+        max-width: 30rem;
+    }
+}
+
+@media (max-width: 35rem) {
+    .header__inner,
+    .footer__inner {
         justify-content: center;
+    }
+    .listing__group {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    img {
+        border-radius: 10px;
+    }
+    h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1.25rem;
     }
 }
