@@ -5,16 +5,16 @@
 
 @font-face {
     font-family: 'DM Sans';
-    src: url('../fonts/DM_Sans/DMSans-Medium.woff2') format('woff2'),
-        url('../fonts/DM_Sans/DMSans-Medium.woff') format('woff');
+    src: url('../../fonts/DM_Sans/DMSans-Medium.woff2') format('woff2'),
+        url('../../fonts/DM_Sans/DMSans-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Literata';
-    src: url('../fonts/Literata/Literata-Regular.woff2') format('woff2'),
-        url('../fonts/Literata/Literata-Regular.woff') format('woff');
+    src: url('../../fonts/Literata/Literata-Regular.woff2') format('woff2'),
+        url('../../fonts/Literata/Literata-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -27,15 +27,14 @@ body {
     font-family: 'DM Sans', sans-serif;
     color: var(--dark);
     background-color: var(--light);
+    & *::selection {
+        background-color: hsla(52, 29%, 85%, 0.8);
+    }
 }
 
 .body__inner {
     max-width: 80rem;
     margin: 0 auto;
-}
-
-body *::selection {
-    background-color: hsla(52, 29%, 85%, 0.8);
 }
 
 h1, h2, h3, h4 {
@@ -86,10 +85,9 @@ ul {
 a {
     color: var(--dark);
     text-decoration: none;
-}
-
-a:hover {
-    opacity: 0.7;
+    &:hover {
+        opacity: 0.7;
+    }
 }
 
 img {
@@ -141,6 +139,26 @@ img {
 @media (max-width: 35rem) {
     .header__inner, .main__inner, .footer__inner {
         padding: 0 1rem;
+    }
+    .header__inner,
+    .footer__inner {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1.25rem;
+    }
+    img {
+        border-radius: 10px;
     }
 }
 
@@ -194,16 +212,15 @@ img {
     justify-content: center;
     align-items: center;
     gap: 0.75rem;
-}
-
-.top-section__link::before {
-    content: '';
-    display: block;
-    width: 3rem;
-    height: 3rem;
-    background: url('../images/icon-arrow.svg') no-repeat;
-    background-size: cover;
-    background-position: center;
+    &::before {
+        content: '';
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        background: url('../../images/icon-arrow.svg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 /* ------------------------------------- Button --------------------------------------- */
@@ -216,10 +233,9 @@ img {
     border-radius: 6.25rem;
     transition: 0.3s;
     text-align: center;
-}
-
-.button:hover {
-    opacity: 0.9;
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 /* ----------------------------------- Hero Section ----------------------------------- */
@@ -248,16 +264,14 @@ img {
 .detail-section {
     margin: 0 auto;
     max-width: 47.25rem;
-}
-
-.detail-section ul {
-    padding-bottom: 3.75rem;
-    padding-left: 1.5rem;
-}
-
-.detail-section li {
-    font-size: 1.25rem;
-    list-style-type: disc;
+    & ul {
+        padding-left: 1.5rem;
+        padding-bottom: 3.75rem;
+    }
+    & li {
+        list-style-type: disc;
+        font-size: 1.25rem;
+    }
 }
 
 /* ----------------------------------- Image Collection ------------------------------- */
@@ -320,20 +334,22 @@ img {
     flex-wrap: wrap;
     gap: 3.75rem;
     padding-bottom: 3.75rem;
-}
-
-.grid__list a:hover {
-    opacity: 1;
+    & a:hover {
+        opacity: 1;
+    }
+    & a:hover .grid__arrow {
+        background-color: var(--light);
+        transition: 0.4s;
+    }
 }
 
 .grid__image {
     position: relative;
-}
-
-.grid__image img {
-    width: 100%;
-    aspect-ratio: 346 / 278;
-    object-fit: cover;
+    & img {
+        width: 100%;
+        aspect-ratio: 346 / 278;
+        object-fit: cover;
+    }
 }
 
 .grid__arrow {
@@ -348,11 +364,6 @@ img {
     align-items: center;
     border-radius: 20px;
     background-color: hsla(52, 17%, 91%, 0.5);
-    transition: 0.4s;
-}
-
-.grid__list a:hover .grid__arrow {
-    background-color: var(--light);
     transition: 0.4s;
 }
 
@@ -402,28 +413,8 @@ img {
 }
 
 @media (max-width: 35rem) {
-    .header__inner,
-    .footer__inner {
-        justify-content: center;
-    }
     .listing__group {
         gap: 2rem;
         flex-wrap: wrap;
-    }
-    img {
-        border-radius: 10px;
-    }
-    h1 {
-        font-size: 2.5rem;
-        line-height: 3rem;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    h3 {
-        font-size: 1.5rem;
-    }
-    h4 {
-        font-size: 1.25rem;
     }
 }
